@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  padding-top: 60px;
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+}
+a {
+  list-style: none;
+}
+.i-left {
+  flex: 1;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.i-right {
+  flex: 1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.i-left-wrapper {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.i-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+.i-name {
+  font-size: 60px;
+}
+.i-title {
+  height: 50px;
+  overflow: hidden;
+}
+.i-title-wrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateY(-100px);
   }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+.i-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  align-items: center;
+}
+.i-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+.i-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.i-bg {
+  clip-path: polygon(100% 0, 100% 21%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: #59b256;
+  width: 100%;
+  height: 100%;
 }

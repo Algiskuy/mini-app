@@ -1,0 +1,20 @@
+.Todolist {
+  padding-top: 80px;
+  text-align: center;
+  /* border: 4px solid; */
+}
+.isikey {
+  display: flex;
+  flex-direction: column;
+}
+.buttonTodo {
+  color: black;
+  box-shadow: 1px 1px 1px 1px black;
+  padding: 0;
+  /* border: 2px solid black; */
+  margin: 10px;
+}
+.buttonTodo:hover {
+  background-color: black;
+  color: white;
+}
