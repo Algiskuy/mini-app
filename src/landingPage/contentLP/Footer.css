@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(6, 6, 49);
+  /* height: 65vh; */
+  color: aliceblue;
+  padding: 50px 10px 20px 10px;
+}
+.ul-footer {
+  list-style: none;
+}
+.h3-footer {
+  margin: 20px 0 20px 0;
+}

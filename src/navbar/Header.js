@@ -8,7 +8,9 @@ const Header = () => {
       <div className="Header">
         <div className="hamburger-menu">
           <h2 className="H2MYMiniApp">
-            <Link to="/">MY Mini App</Link>
+            <Link to="/" className="l-header">
+              MY Mini App
+            </Link>
           </h2>
           <input id="menu_toggle" type="checkbox" />
           <label htmlFor="menu_toggle" className="menu_btn">
@@ -32,16 +34,6 @@ const Header = () => {
             </Link>
           </ul>
         </div>
-        {/* <div className="H-Right">
-          <ul>
-            <li>
-              <Link to="/Calculator">MA.1</Link>
-            </li>
-            <li>
-              <Link to="/TodoList">MA.2</Link>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </header>
   );

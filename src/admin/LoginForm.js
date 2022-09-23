@@ -58,7 +58,9 @@ export default function LoginForm({ Login, error }) {
         <br />
         <hr />
         <br />
-        <a href="/">Buat Halaman</a>
+        <a href="/" target="_blank">
+          Buat Halaman
+        </a>
         <span className="span"> untuk selebriti, merek, atau bisnis.</span>
       </div>
     </form>

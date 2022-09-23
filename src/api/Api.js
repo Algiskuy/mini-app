@@ -1,53 +1,3 @@
-// import React from "react";
-// // import { useState } from "react";
-// import "./Api.css";
-
-// export default function Api() {
-//   const [news, setNews] = React.useState([]);
-
-//   React.useEffect(function () {
-//     async function getData() {
-//       const request = await fetch(
-//         "https://api.spaceflightnewsapi.net/v3/blogs"
-//       );
-//       const response = await request.json();
-
-//       setNews(response);
-//     }
-//     getData();
-//   }, []);
-//   return (
-//     <>
-//       <h1 className="Api">Api Fecth</h1>
-//       <ul>
-//         {news.map(function (item) {
-//           return <li key={item.id}>{item.title}</li>;
-//         })}
-//       </ul>
-//     </>
-//   );
-// }
-
-// // export default function Api() {
-// //   React.useEffect(function () {
-// //     const getData = fetch("https://api.spaceflightnewsapi.net/v3/blogs")
-// //       .then(function (response) {
-// //         return response.json();
-// //       })
-// //       .then(function (response) {
-// //         console.log(response);
-// //       });
-// //     console.log(getData);
-// //   }, []);
-// //   return (
-// //     <>
-// //       <h1 className="Api">Api Fecth</h1>
-// //     </>
-// //   );
-// //
-// // }
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 import React, { useState } from "react";
 import "./Api.css";
 import ftApi1 from "../foto/icon1ygy.png";
@@ -83,8 +33,8 @@ export default function Api() {
         <div className="headerApi">
           <img className="ftNavApi" src={ftApi1} alt="foto" />
           <div className="AppName">React Movie App</div>
-          <div className="searchBox">
-            <img src={ftApi2} alt="" className="searchIcon" />
+          <div className="searchBoxApi">
+            <img src={ftApi2} alt="" className="searchIconApi" />
             <input
               type="text"
               className="inputNavApi"
@@ -117,30 +67,3 @@ export default function Api() {
     </>
   );
 }
-
-// {/* <ul>
-//   <li className="movieContainer">
-//     <MovieComponent />
-//   </li>
-//   <li className="movieContainer">
-//     <MovieComponent />
-//   </li>
-//   <li className="movieContainer">
-//     <MovieComponent />
-//   </li>
-//   <li className="movieContainer">
-//     <MovieComponent />
-//   </li>
-// </ul> */}
-// <div className="movieContainer2">
-//   <MovieComponent />
-// </div>
-// <div className="movieContainer2">
-//   <MovieComponent />
-// </div>
-// <div className="movieContainer2">
-//   <MovieComponent />
-// </div>
-// <div className="movieContainer2">
-//   <MovieComponent />
-// </div>

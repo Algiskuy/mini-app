@@ -1,5 +1,8 @@
-/* h1.Data {
-} */
+body {
+  max-width: 1800px;
+  margin: auto;
+  padding: 0;
+}
 .Container {
   /* padding-top: 80px; */
   display: flex;
@@ -34,20 +37,22 @@
   height: 45px;
   /* margin: 5px; */
 }
-.searchBox {
+.searchBoxApi {
   display: flex;
   flex-direction: row;
-  padding: 10px 10px;
+  justify-content: space-between;
+  padding: 5px;
   background-color: white;
   border-radius: 6px;
   margin-left: 20px;
   width: 50%;
-  align-items: center;
+  /* align-items: center; */
   /* background-color: white; */
 }
-.searchIcon {
+.searchIconApi {
   width: 32px;
   height: 32px;
+  margin-top: 4px;
 }
 .inputNavApi {
   color: black;
@@ -56,6 +61,10 @@
   border: none;
   outline: none;
   margin-left: 15px;
+  padding: 10px;
+  width: 90%;
+  /* border: 2px solid red; */
+  /* margin-bottom: 30px; */
 }
 .placeholders {
   width: 120px;
@@ -63,19 +72,3 @@
   margin: 150px;
   opacity: 50%;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* .movieListContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 30px;
-  justify-content: space-evenly;
-}
-.movieContainer {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  width: 280px;
-  box-shadow: 0 3px 10px 0 #aaa;
-  cursor: pointer;
-} */

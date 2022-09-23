@@ -1,5 +1,5 @@
 .content {
-  padding-top: 60px;
+  /* padding-top: 50px; */
   display: flex;
   height: 100vh;
 }
@@ -70,8 +70,32 @@ a {
   object-fit: cover;
 }
 .i-bg {
-  clip-path: polygon(100% 0, 100% 21%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  background-color: #59b256;
-  width: 100%;
+  /* clip-path: polygon(100% 0, 100% 21%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
+  /* background-color: #59b256; */
+  /* width: 100%; */
   height: 100%;
+}
+.landingPage {
+  padding-top: 40px;
+  font-family: "mostserrat", sans-serif;
+  background-color: #223343;
+}
+.l-content {
+  padding: 10px 15px 0px;
+}
+.l-content h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+@media screen and (max-width: 628px) {
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 140px;
+  }
+  .i-img {
+    height: 100vh;
+  }
 }
