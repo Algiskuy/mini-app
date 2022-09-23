@@ -87,14 +87,15 @@ function Dashboard() {
           <div className="i-left">
             <div className="i-left-wrapper">
               <h2 className="i-intro">Hello, My name is</h2>
-              <h1 className="i-name">Carnaby</h1>
+              <h1 className="i-name">Algis Al Kausar</h1>
               <div className="i-title">
                 <div className="i-title-wrapper">
                   <div className="i-title-item">Front End Dev</div>
-                  <div className="i-title-item">Calculator</div>
+                  <div className="i-title-item">Landing Page</div>
                   <div className="i-title-item">Admin</div>
                   <div className="i-title-item">Todo List</div>
-                  <div className="i-title-item">Api</div>
+                  <div className="i-title-item">Calculator</div>
+                  <div className="i-title-item">Movie APP</div>
                 </div>
               </div>
               <p className="i-desc">
