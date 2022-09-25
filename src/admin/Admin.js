@@ -26,6 +26,7 @@ export default function Admin() {
       console.log("Details do not macth!");
       setError("Details do not macth!");
     }
+    console.log("ket = id:admin@admin.com && pass:admin123");
   };
 
   const Logout = () => {

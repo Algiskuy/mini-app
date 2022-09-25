@@ -90,7 +90,7 @@ function Dashboard() {
               <h1 className="i-name">Algis Al Kausar</h1>
               <div className="i-title">
                 <div className="i-title-wrapper">
-                  <div className="i-title-item">Front End Dev</div>
+                  {/* <div className="i-title-item">Front End Dev</div> */}
                   <div className="i-title-item">Landing Page</div>
                   <div className="i-title-item">Admin</div>
                   <div className="i-title-item">Todo List</div>

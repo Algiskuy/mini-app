@@ -65,7 +65,7 @@ export default function Footer() {
               rel="noreferrer"
             >
               <FaInstagramSquare />
-              <span>Instagram</span>
+              <span> Instagram</span>
             </a>
           </li>
           <li>

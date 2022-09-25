@@ -1,5 +1,5 @@
 import React from "react";
-import { Algis1, Laborer, MA, PDL, PIT, PMR } from "../fotoLanding/Foto";
+import { BDHR, Laborer, MA, PDL, PIT, PMR } from "../fotoLanding/Foto";
 import "./Content1.css";
 
 export default function Content1() {
@@ -29,7 +29,7 @@ export default function Content1() {
             <img src={PDL} alt="foto 1" className="e-c-avatar" />
           </div>
           <div className="e-f-content">
-            <p className="e-c-text">PKL (Pratek Dakwah Lapangan)</p>
+            <p className="e-c-text">PDL (Pratek Dakwah Lapangan)</p>
             <small>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
               delectus fuga assumenda ut est minus magni officiis sapiente sequi
@@ -40,7 +40,7 @@ export default function Content1() {
         </div>
         <div className="e-content">
           <div className="e-fill">
-            <img src={Algis1} alt="foto 1" className="e-c-avatar" />
+            <img src={BDHR} alt="foto 1" className="e-c-avatar" />
           </div>
           <div className="e-f-content">
             <p className="e-c-text">Asisten Bendahara Pondok</p>

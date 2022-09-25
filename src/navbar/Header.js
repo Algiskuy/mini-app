@@ -30,7 +30,7 @@ const Header = () => {
               <li className="menu_item">Calculator</li>
             </Link>
             <Link to="/Api" target="_blank">
-              <li className="menu_item">API</li>
+              <li className="menu_item">Movie APP</li>
             </Link>
           </ul>
         </div>
